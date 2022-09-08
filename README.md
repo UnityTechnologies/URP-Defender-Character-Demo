@@ -21,7 +21,7 @@ HairFX Core package only is also available on github [here](https://github.com/U
 ## Requirements
 
 - Unity 2021.2.13f1 +
-- URP / HDRP 12.1.4 +
+- Universal Render Pipeline 12.1.4 +
 
 ## Here’s what’s in the box
 - Defender character with Multi-Hair styles
