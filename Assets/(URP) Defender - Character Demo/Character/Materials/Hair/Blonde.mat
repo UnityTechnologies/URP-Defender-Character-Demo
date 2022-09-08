@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-961147180734093749
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Blonde
+  m_Shader: {fileID: -6465566751694194690, guid: 55683b64710dc8e4693dc93f64a407dc,
+    type: 3}
+  m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+    RenderType: Opaque
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4adae90930c444c9a4e1cdcce51a7545_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 6900a676e9d22024f9d13cb6bde68e8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_f635909c9f214acdb43680cbe1ed69c9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c555d93bea2ae764b94ce79beeb63a4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StrandColorMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_29c9a18feb2b470b91aeb53a6823b63e_Out_0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AAExpandPixel: 1
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClip: 0
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _Alpha_Clip: 0.5
+    - _Alpha_Threshold: 0.33
+    - _Ambient_Occlusion: 1
+    - _BLUE_VERTEX_COLOR_FOR_PER_STRAND_INDEX_EFFECT: 0
+    - _Blend: 0
+    - _BlendMode: 0
+    - _CastShadows: 1
+    - _ConservativeDepthOffsetEnable: 0
+    - _Cull: 2
+    - _CullMode: 0
+    - _CullModeForward: 0
+    - _Cuticle_Angle: 3
+    - _Cuticle_Angle_Distance: 1
+    - _Cuticle_Angle_Tip: 50
+    - _DepthOffsetEnable: 0
+    - _DoubleSidedEnable: 1
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _Float: 0.15
+    - _GENERATE_THICKNESS_FROM_COLLAPSED_RIBBON_GEOMETRY: 1
+    - _GREEN_VERTEX_COLOR_FOR_RADIUS_VARIATION: 0
+    - _Going_Grey: 0
+    - _Grey_Hair: 0
+    - _HairShadowWidth: 2
+    - _HairWidth: 0.5
+    - _Hair_Color_Variation: 0.01
+    - _Hair_Shadow_Width: 2
+    - _Hair_Smoothness: 0.621
+    - _Hair_Smoothness_Variation: 0.1
+    - _IS_RIBBON_HAIR: 1
+    - _Length_Smoothness: 0.616
+    - _MaxRadius: 0.01
+    - _Max_Radius: 0.01
+    - _Melanin: 0.1
+    - _MelaninRedness: 0.5
+    - _MinRadius: 0.01
+    - _Min_Radius: 0.0025
+    - _OpaqueCullMode: 2
+    - _Per_Strand_Color_Variation: 0.227
+    - _Per_Strand_Hue_Variation: 0.118
+    - _Per_Strand_Smoothness_Variation: 0.193
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RED_VERTEX_COLOR_FOR_AMBIENT_OCCLUSION: 0
+    - _RIBBON_HAIR: 1
+    - _Radial_Smoothness: 0.7
+    - _ReceiveShadows: 1
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _Root_Distance: 0.282
+    - _Root_Fade: 0
+    - _Root_Length: 0.198
+    - _Root_Smoothness: 0.484
+    - _Root_Smoothness_Distance: 0.419
+    - _Root_Smoothness_Fade: 0
+    - _Root_Smoothness_Length: 0.181
+    - _SCREEN_ALIGNED_THICKNESS: 1
+    - _SecondarySmoothness: 0.5
+    - _SecondarySpecularShift: -0.1
+    - _Smoothness: 0.6
+    - _SpecularShift: 0.1
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SupportDecals: 1
+    - _Surface: 0
+    - _SurfaceType: 0
+    - _TipColorPercentage: 0.6
+    - _Tip_Distance: 0.312
+    - _Tip_Fade: 0
+    - _Tip_Length: 0.382
+    - _Tip_Thinning: 0.453
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UseShadowThreshold: 0
+    - _ZTest: 4
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
+    - _salt_and_pepper: 0
+    - _size: 0.1
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
+    - _DyeColor: {r: 0.28301886, g: 0.23334432, b: 0.20158416, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Grey_Hair_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 0}
+    - _Hair_Color: {r: 0.5283019, g: 0.45068425, b: 0.3264507, a: 1}
+    - _Hair_Direction: {r: 0, g: 1, b: 0, a: 0}
+    - _Hair_Root_Color: {r: 0.41509432, g: 0.3281074, b: 0.23691703, a: 1}
+    - _Hair_Strand_Direction: {r: 1, g: 0, b: 0, a: 0}
+    - _Hair_Tip_Color: {r: 0.7735849, g: 0.5533458, b: 0.29556784, a: 1}
+    - _Length_Color: {r: 0.7735849, g: 0.5577735, b: 0.23645425, a: 0}
+    - _Root_Color: {r: 0.5283019, g: 0.38910645, b: 0.24172305, a: 1}
+    - _SecondarySpecularTint: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.6980392}
+    - _SpecularColor: {r: 0.6320754, g: 0.5650432, b: 0.46213064, a: 0}
+    - _SpecularTint: {r: 0.71599996, g: 0.71599996, b: 0.71599996, a: 1}
+    - _TipColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tip_Color: {r: 0.5660378, g: 0.4737616, b: 0.34442863, a: 1}
+    - _dir: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3532559443364092050
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

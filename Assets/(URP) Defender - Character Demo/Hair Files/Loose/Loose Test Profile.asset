@@ -1,0 +1,716 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b2d6fe744eae54ca7bb468cd02dc54, type: 3}
+  m_Name: Loose Test Profile
+  m_EditorClassIdentifier: 
+  hairList:
+  - hairAsset: {fileID: -6750239444755058063, guid: 14049a65f448a694f82661e21a64ba1a,
+      type: 3}
+    customize: 0
+    localSimulationSettings:
+      vspCoeff:
+        value: 0.65
+        overrideStates: 0
+      vspAccelThreshold:
+        value: 0.7
+        overrideStates: 0
+      damping:
+        value: 0.1
+        overrideStates: 1
+      localConstraintsIterations:
+        value: 10
+        overrideStates: 0
+      localStiffnessCurve:
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.011921216
+            value: 0.20473048
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.99569494
+            value: 0.10158857
+            inSlope: -0.018642245
+            outSlope: -0.018642245
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.0754148
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+        overrideStates: 0
+      globalStiffnessCurve:
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.004173279
+            value: 0.19973636
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1.000251
+            value: 0.09946106
+            inSlope: -0.02765025
+            outSlope: -0.02765025
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.075414754
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+        overrideStates: 0
+      lengthConstraintsIterations:
+        value: 15
+        overrideStates: 0
+      gravityMagnitude:
+        value: 0
+        overrideStates: 0
+      tipSeparation:
+        value: 0
+        overrideStates: 0
+      followHairLengthOffset:
+        value: 0
+        overrideStates: 0
+    localRenderingSettings:
+      LODRange:
+        value: {x: 0, y: 0}
+        overrideStates: 0
+      LODPercent:
+        value: 0
+        overrideStates: 0
+      LODWidthMultiplier:
+        value: 0
+        overrideStates: 0
+      fiberRadius:
+        value: 0.08
+        overrideStates: 1
+      fiberRatio:
+        value: 1
+        overrideStates: 0
+      fiberRatioStart:
+        value: 0.51
+        overrideStates: 0
+      tipPercentage:
+        value: 0
+        overrideStates: 0
+      strandUVTilingFactor:
+        value: 0
+        overrideStates: 0
+      shadowLODStartDistance:
+        value: 0
+        overrideStates: 0
+      shadowLODEndDistance:
+        value: 0
+        overrideStates: 0
+      shadowLODPercent:
+        value: 0
+        overrideStates: 0
+      shadowLODWidthMultiplier:
+        value: 0
+        overrideStates: 0
+      enableThinTip:
+        value: 0
+        overrideStates: 0
+      enableHairLOD:
+        value: 0
+        overrideStates: 0
+      followHairOffset:
+        value: 0.005
+        overrideStates: 1
+      followHairCount:
+        value: 2
+        overrideStates: 1
+      bothEndsImmovable:
+        value: 0
+        overrideStates: 0
+      tessellationNumber:
+        value: 16
+        overrideStates: 0
+    strandsSettingToggle: 1
+    geometrySettingToggle: 1
+    simulationSettingToggle: 1
+    localStrandsFoldout: 1
+    localGeometryFoldout: 1
+    localSimulationFoldout: 1
+  - hairAsset: {fileID: -6750239444755058063, guid: 7b1191c3805d1294b963d4ce8a932e35,
+      type: 3}
+    customize: 0
+    localSimulationSettings:
+      vspCoeff:
+        value: 0.906
+        overrideStates: 0
+      vspAccelThreshold:
+        value: 0.913
+        overrideStates: 0
+      damping:
+        value: 0.08
+        overrideStates: 1
+      localConstraintsIterations:
+        value: 10
+        overrideStates: 0
+      localStiffnessCurve:
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+        overrideStates: 1
+      globalStiffnessCurve:
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.01073724
+            value: 0.14253336
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1.0107372
+            value: 0.14253336
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+        overrideStates: 1
+      lengthConstraintsIterations:
+        value: 20
+        overrideStates: 0
+      gravityMagnitude:
+        value: 0
+        overrideStates: 0
+      tipSeparation:
+        value: 0
+        overrideStates: 0
+      followHairLengthOffset:
+        value: 0
+        overrideStates: 0
+    localRenderingSettings:
+      LODRange:
+        value: {x: 0, y: 0}
+        overrideStates: 0
+      LODPercent:
+        value: 0
+        overrideStates: 0
+      LODWidthMultiplier:
+        value: 0
+        overrideStates: 0
+      fiberRadius:
+        value: 0.01
+        overrideStates: 0
+      fiberRatio:
+        value: 0
+        overrideStates: 0
+      fiberRatioStart:
+        value: 0
+        overrideStates: 0
+      tipPercentage:
+        value: 0
+        overrideStates: 0
+      strandUVTilingFactor:
+        value: 0
+        overrideStates: 0
+      shadowLODStartDistance:
+        value: 0
+        overrideStates: 0
+      shadowLODEndDistance:
+        value: 0
+        overrideStates: 0
+      shadowLODPercent:
+        value: 0
+        overrideStates: 0
+      shadowLODWidthMultiplier:
+        value: 0
+        overrideStates: 0
+      enableThinTip:
+        value: 0
+        overrideStates: 0
+      enableHairLOD:
+        value: 0
+        overrideStates: 0
+      followHairOffset:
+        value: 0.002
+        overrideStates: 1
+      followHairCount:
+        value: 7
+        overrideStates: 1
+      bothEndsImmovable:
+        value: 0
+        overrideStates: 0
+      tessellationNumber:
+        value: 32
+        overrideStates: 1
+    strandsSettingToggle: 1
+    geometrySettingToggle: 0
+    simulationSettingToggle: 1
+    localStrandsFoldout: 1
+    localGeometryFoldout: 0
+    localSimulationFoldout: 1
+  - hairAsset: {fileID: -6750239444755058063, guid: d0bbbc11d37ed164e9827b2a2e452006,
+      type: 3}
+    customize: 0
+    localSimulationSettings:
+      vspCoeff:
+        value: 0.65
+        overrideStates: 1
+      vspAccelThreshold:
+        value: 0.45
+        overrideStates: 1
+      damping:
+        value: 0.1
+        overrideStates: 0
+      localConstraintsIterations:
+        value: 10
+        overrideStates: 0
+      localStiffnessCurve:
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.011921216
+            value: 0.14027736
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.5039652
+            value: 0.03809073
+            inSlope: -0.018642245
+            outSlope: -0.018642245
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.0754148
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+        overrideStates: 0
+      globalStiffnessCurve:
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.0065369625
+            value: 0.113646366
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.5919411
+            value: 0.008968316
+            inSlope: -0.02765025
+            outSlope: -0.02765025
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.075414754
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+        overrideStates: 1
+      lengthConstraintsIterations:
+        value: 15
+        overrideStates: 0
+      gravityMagnitude:
+        value: 0
+        overrideStates: 0
+      tipSeparation:
+        value: 0
+        overrideStates: 0
+      followHairLengthOffset:
+        value: 0
+        overrideStates: 0
+    localRenderingSettings:
+      LODRange:
+        value: {x: 0, y: 0}
+        overrideStates: 0
+      LODPercent:
+        value: 0
+        overrideStates: 0
+      LODWidthMultiplier:
+        value: 0
+        overrideStates: 0
+      fiberRadius:
+        value: 0.1
+        overrideStates: 1
+      fiberRatio:
+        value: 0
+        overrideStates: 0
+      fiberRatioStart:
+        value: 0.262
+        overrideStates: 0
+      tipPercentage:
+        value: 0
+        overrideStates: 0
+      strandUVTilingFactor:
+        value: 0
+        overrideStates: 0
+      shadowLODStartDistance:
+        value: 0
+        overrideStates: 0
+      shadowLODEndDistance:
+        value: 0
+        overrideStates: 0
+      shadowLODPercent:
+        value: 0
+        overrideStates: 0
+      shadowLODWidthMultiplier:
+        value: 0
+        overrideStates: 0
+      enableThinTip:
+        value: 0
+        overrideStates: 0
+      enableHairLOD:
+        value: 0
+        overrideStates: 0
+      followHairOffset:
+        value: 0.005
+        overrideStates: 1
+      followHairCount:
+        value: 2
+        overrideStates: 1
+      bothEndsImmovable:
+        value: 0
+        overrideStates: 0
+      tessellationNumber:
+        value: 64
+        overrideStates: 0
+    strandsSettingToggle: 1
+    geometrySettingToggle: 0
+    simulationSettingToggle: 1
+    localStrandsFoldout: 1
+    localGeometryFoldout: 1
+    localSimulationFoldout: 1
+  - hairAsset: {fileID: -6750239444755058063, guid: 120e029a172a89a4d8af7decf0f1b337,
+      type: 3}
+    customize: 0
+    localSimulationSettings:
+      vspCoeff:
+        value: 0.65
+        overrideStates: 0
+      vspAccelThreshold:
+        value: 0.45
+        overrideStates: 0
+      damping:
+        value: 0.1
+        overrideStates: 0
+      localConstraintsIterations:
+        value: 10
+        overrideStates: 0
+      localStiffnessCurve:
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.011921216
+            value: 0.20473048
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.99569494
+            value: 0.09084638
+            inSlope: -0.018642245
+            outSlope: -0.018642245
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.0754148
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+        overrideStates: 0
+      globalStiffnessCurve:
+        value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.011169434
+            value: 0.11851001
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.67839146
+            value: 0.010260209
+            inSlope: -0.02765025
+            outSlope: -0.02765025
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.075414754
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 0
+        overrideStates: 1
+      lengthConstraintsIterations:
+        value: 15
+        overrideStates: 0
+      gravityMagnitude:
+        value: 0
+        overrideStates: 0
+      tipSeparation:
+        value: 0
+        overrideStates: 0
+      followHairLengthOffset:
+        value: 0
+        overrideStates: 0
+    localRenderingSettings:
+      LODRange:
+        value: {x: 0, y: 0}
+        overrideStates: 0
+      LODPercent:
+        value: 0
+        overrideStates: 0
+      LODWidthMultiplier:
+        value: 0
+        overrideStates: 0
+      fiberRadius:
+        value: 0.1
+        overrideStates: 1
+      fiberRatio:
+        value: 0
+        overrideStates: 0
+      fiberRatioStart:
+        value: 0.262
+        overrideStates: 0
+      tipPercentage:
+        value: 0
+        overrideStates: 0
+      strandUVTilingFactor:
+        value: 0
+        overrideStates: 0
+      shadowLODStartDistance:
+        value: 0
+        overrideStates: 0
+      shadowLODEndDistance:
+        value: 0
+        overrideStates: 0
+      shadowLODPercent:
+        value: 0
+        overrideStates: 0
+      shadowLODWidthMultiplier:
+        value: 0
+        overrideStates: 0
+      enableThinTip:
+        value: 0
+        overrideStates: 0
+      enableHairLOD:
+        value: 0
+        overrideStates: 0
+      followHairOffset:
+        value: 0.03
+        overrideStates: 1
+      followHairCount:
+        value: 4
+        overrideStates: 1
+      bothEndsImmovable:
+        value: 0
+        overrideStates: 0
+      tessellationNumber:
+        value: 32
+        overrideStates: 1
+    strandsSettingToggle: 1
+    geometrySettingToggle: 1
+    simulationSettingToggle: 1
+    localStrandsFoldout: 1
+    localGeometryFoldout: 1
+    localSimulationFoldout: 1
+  globalSimulationSettings:
+    vspCoeff:
+      value: 0.7
+      overrideStates: 0
+    vspAccelThreshold:
+      value: 0.9
+      overrideStates: 0
+    damping:
+      value: 0.1
+      overrideStates: 0
+    localConstraintsIterations:
+      value: 10
+      overrideStates: 0
+    localStiffnessCurve:
+      value:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: -0.0001766096
+          outSlope: -0.0001766096
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 1
+        - serializedVersion: 3
+          time: 1
+          value: 0.7514305
+          inSlope: -0.0015099457
+          outSlope: -0.0015099457
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 1
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      overrideStates: 0
+    globalStiffnessCurve:
+      value:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0.115753174
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0.0508461
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      overrideStates: 0
+    lengthConstraintsIterations:
+      value: 15
+      overrideStates: 0
+    gravityMagnitude:
+      value: 1
+      overrideStates: 0
+    tipSeparation:
+      value: 0.55
+      overrideStates: 0
+    followHairLengthOffset:
+      value: 0
+      overrideStates: 0
+  globalRenderingSettings:
+    LODRange:
+      value: {x: 2, y: 8}
+      overrideStates: 0
+    LODPercent:
+      value: 0.5
+      overrideStates: 0
+    LODWidthMultiplier:
+      value: 2
+      overrideStates: 0
+    fiberRadius:
+      value: 0.1
+      overrideStates: 0
+    fiberRatio:
+      value: 0.243
+      overrideStates: 0
+    fiberRatioStart:
+      value: 0.294
+      overrideStates: 0
+    tipPercentage:
+      value: 0
+      overrideStates: 0
+    strandUVTilingFactor:
+      value: 1
+      overrideStates: 0
+    shadowLODStartDistance:
+      value: 1
+      overrideStates: 0
+    shadowLODEndDistance:
+      value: 5
+      overrideStates: 0
+    shadowLODPercent:
+      value: 0.5
+      overrideStates: 0
+    shadowLODWidthMultiplier:
+      value: 2
+      overrideStates: 0
+    enableThinTip:
+      value: 1
+      overrideStates: 0
+    enableHairLOD:
+      value: 1
+      overrideStates: 0
+    followHairOffset:
+      value: 0.008
+      overrideStates: 0
+    followHairCount:
+      value: 2
+      overrideStates: 0
+    bothEndsImmovable:
+      value: 0
+      overrideStates: 0
+    tessellationNumber:
+      value: 16
+      overrideStates: 0
+  hairStatusFoldout: 1
+  strandsSettingFoldout: 1
+  geometrySettingFoldout: 1
+  simulationSettingFoldout: 1
+  needToReload: 0

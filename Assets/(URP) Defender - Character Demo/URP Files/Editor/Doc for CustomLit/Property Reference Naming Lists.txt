@@ -1,0 +1,42 @@
+//-----------------------------------------------------------------------------------
+// CustomLitEditorGUI
+//-----------------------------------------------------------------------------------
+Following property reference name required when using with CustomLitEditorGUI
+
+Normal Map or DetailNormalMap
+Make sure the property reference is named one of the following :
+- _NormalMap or _Normal_Map or _BumpMap (Texture2D, Mode = Normal Map)
+- _DetailNormalMap                      (Texture2D, Mode = Normal Map)
+
+Detail Map or Thread Map
+Make sure the property reference is named one of the following : 
+- _DetailMap   (Texture2D, Mode = linearGrey)
+- _ThreadMap   (Texture2D, Mode = linearGrey)
+
+Additional Properties for Property Only
+These properties are hidden in the GUI only for Surface Options and Advanced Options use, 
+make sure the following property reference exists, its type is in parentheses : 
+- _WorkflowMode           (float, Default = 1) [ 1 = Metallic, 0 = Specular]
+- _ReceiveShadows         (float, Default = 1) 
+- _Cutoff                 (slider, Range (0,1), Default = 0.5) 
+- _SpecularHighlights     (float, Default = 1)
+- _EnvironmentReflections (float, Default = 1)
+
+//-----------------------------------------------------------------------------------
+// Skin and Anisotropic Lighting CustomLit Node
+//-----------------------------------------------------------------------------------
+ClearCoat for CustomLit-Ansotropic
+Make sure keyword _CLEARCOAT exists in the shadergraph's properties blackboard
+- _CLEARCOAT    (Boolean Keyword)
+
+DetailMap for CustomLit-Skin_PreIntegrated
+Make sure keyword _USE_DETAIL exists in the shadergraph's properties blackboard
+- _USE_DETAIL   (Boolean Keyword)
+
+//-----------------------------------------------------------------------------------
+// Detail Map or Thread Map for Sub Graph
+//-----------------------------------------------------------------------------------
+DetailMap or ThreadMap
+Other toggles of "_useDetailMap" or "_useThreadMap" can be used any name with non-keyword boolean
+- _useDetailMap (ok with any other name)  (Boolean)
+- _useThreadMap (ok with any other name)  (Boolean)

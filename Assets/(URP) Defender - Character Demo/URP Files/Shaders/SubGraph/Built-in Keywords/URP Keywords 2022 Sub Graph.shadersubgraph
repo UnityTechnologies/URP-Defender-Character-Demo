@@ -1,0 +1,192 @@
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.GraphData",
+    "m_ObjectId": "4af9e2f230714935bbdfb85e2f4c601b",
+    "m_Properties": [],
+    "m_Keywords": [
+        {
+            "m_Id": "d065b7dea389423dbd19a10db61dd467"
+        },
+        {
+            "m_Id": "bd2f94df6c71484498d4f1f60cd0a830"
+        }
+    ],
+    "m_Dropdowns": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "068f5dbf9b3d4733acd5805cfabd90fc"
+        }
+    ],
+    "m_Nodes": [
+        {
+            "m_Id": "e8a1351ca7d544c4a99ab27636b3bf65"
+        }
+    ],
+    "m_GroupDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "e9fc34040f6b4db6b54c38404db8962e"
+        }
+    ],
+    "m_Edges": [],
+    "m_VertexContext": {
+        "m_Position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "m_Blocks": []
+    },
+    "m_FragmentContext": {
+        "m_Position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "m_Blocks": []
+    },
+    "m_PreviewData": {
+        "serializedMesh": {
+            "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
+            "m_Guid": ""
+        },
+        "preventRotation": false
+    },
+    "m_Path": "Sub Graphs",
+    "m_GraphPrecision": 1,
+    "m_PreviewMode": 2,
+    "m_OutputNode": {
+        "m_Id": "e8a1351ca7d544c4a99ab27636b3bf65"
+    },
+    "m_ActiveTargets": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "068f5dbf9b3d4733acd5805cfabd90fc",
+    "m_Name": "",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "d065b7dea389423dbd19a10db61dd467"
+        },
+        {
+            "m_Id": "bd2f94df6c71484498d4f1f60cd0a830"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "bd2f94df6c71484498d4f1f60cd0a830",
+    "m_Guid": {
+        "m_GuidSerialized": "dd7f4b48-e28c-4551-b832-f93efaaa1f89"
+    },
+    "m_Name": "LOD_FADE_CROSSFADE",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "LOD_FADE_CROSSFADE",
+    "m_DefaultReferenceName": "_LOD_FADE_CROSSFADE",
+    "m_OverrideReferenceName": "LOD_FADE_CROSSFADE",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 1,
+    "m_KeywordStages": 2,
+    "m_Entries": [],
+    "m_Value": 0,
+    "m_IsEditable": true
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "c902e473c48c4cdea36f10c32f89458e",
+    "m_Id": 1,
+    "m_DisplayName": "Out_Keywords",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out_Keywords",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "d065b7dea389423dbd19a10db61dd467",
+    "m_Guid": {
+        "m_GuidSerialized": "ce13cfc8-1f01-43da-999d-f7cc451a686d"
+    },
+    "m_Name": "FORWARD_PLUS",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "FORWARD_PLUS",
+    "m_DefaultReferenceName": "_FORWARD_PLUS",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 1,
+    "m_KeywordStages": 63,
+    "m_Entries": [],
+    "m_Value": 0,
+    "m_IsEditable": true
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphOutputNode",
+    "m_ObjectId": "e8a1351ca7d544c4a99ab27636b3bf65",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Output",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 220.0,
+            "y": -282.0,
+            "width": 129.0,
+            "height": 77.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "c902e473c48c4cdea36f10c32f89458e"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "IsFirstSlotValid": true
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "e9fc34040f6b4db6b54c38404db8962e",
+    "m_Title": "Keywords for ver. 2022.2.x",
+    "m_Content": "FORWARD_PLUS\nLOD_FADE_CROSSFADE\n\nThis subgraph can be removed if Unity Editor is older then 2022.2.x\n",
+    "m_TextSize": 0,
+    "m_Theme": 1,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 29.0,
+        "y": -419.0,
+        "width": 381.0,
+        "height": 122.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+

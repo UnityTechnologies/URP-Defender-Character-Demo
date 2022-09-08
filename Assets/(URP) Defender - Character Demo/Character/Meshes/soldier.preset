@@ -1,0 +1,1287 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: soldier
+  m_TargetType:
+    m_NativeTypeID: 1041
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.size
+    value: 57
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[0].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[0].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[0].first.name
+    value: arm_plastic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[0].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 25c971bae28a07b4287a725b1a5e6c91, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[1].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[1].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[1].first.name
+    value: bag_belt
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[1].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 44bf5f1626d53544b9994613b64af5d3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[2].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[2].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[2].first.name
+    value: battery_base
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[2].second
+    value: 
+    objectReference: {fileID: 2100000, guid: c5c08618ba59aee4ea80f352152e2dcb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[3].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[3].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[3].first.name
+    value: battery_plastic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[3].second
+    value: 
+    objectReference: {fileID: 2100000, guid: a1cf1288044845442833d4736c2e6197, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[4].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[4].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[4].first.name
+    value: belt_fabric
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[4].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 918ecda52cbd5e84ea1c9df6d72f5611, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[5].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[5].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[5].first.name
+    value: black_border
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[5].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 0c3931fa583d28643a0d101d0f532bb7, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[6].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[6].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[6].first.name
+    value: black_plastic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[6].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 513321c873c6a4646802132a4832708b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[7].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[7].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[7].first.name
+    value: border
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[7].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 802bc40b0c1612d408eae106a0199135, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[8].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[8].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[8].first.name
+    value: browThick
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[8].second
+    value: 
+    objectReference: {fileID: 2100000, guid: f84a96bd462d250419865cfdefbd5bf9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[9].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[9].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[9].first.name
+    value: browThick1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[9].second
+    value: 
+    objectReference: {fileID: 2100000, guid: f84a96bd462d250419865cfdefbd5bf9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[10].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[10].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[10].first.name
+    value: browThin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[10].second
+    value: 
+    objectReference: {fileID: 2100000, guid: fc7ead67a79217e469ff5149f6049851, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[11].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[11].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[11].first.name
+    value: browThin1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[11].second
+    value: 
+    objectReference: {fileID: 2100000, guid: fc7ead67a79217e469ff5149f6049851, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[12].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[12].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[12].first.name
+    value: buckles_plastic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[12].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 585b276ba4b4ca645831f90779c0e8d6, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[13].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[13].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[13].first.name
+    value: emit
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[13].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 36603da7cb8723340bad7b966fb76472, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[14].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[14].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[14].first.name
+    value: eyes
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[14].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 1f6dbd230e2b43441a6cb6a76db73da1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[15].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[15].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[15].first.name
+    value: eyes1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[15].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 1f6dbd230e2b43441a6cb6a76db73da1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[16].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[16].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[16].first.name
+    value: eyes3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[16].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 1f6dbd230e2b43441a6cb6a76db73da1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[17].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[17].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[17].first.name
+    value: fabric_border
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[17].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 65742d2dc873b224b92045452eaf3daf, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[18].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[18].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[18].first.name
+    value: gloves_boarder
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[18].second
+    value: 
+    objectReference: {fileID: 2100000, guid: b44a7dcfb0ae0c141b1b7c80aabc64da, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[19].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[19].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[19].first.name
+    value: gloves_fabric
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[19].second
+    value: 
+    objectReference: {fileID: 2100000, guid: eede32eb6efd1d64395ccc616eb2525c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[20].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[20].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[20].first.name
+    value: gloves_leather
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[20].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 4f8a8836ba2ae9442802b2808709f588, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[21].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[21].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[21].first.name
+    value: gloves_stitches
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[21].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 8df30c731b94b064f88a78849ee975e2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[22].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[22].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[22].first.name
+    value: gold
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[22].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 45e4fd2bb2f249e4e8781c1a6245a5cb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[23].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[23].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[23].first.name
+    value: gum
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[23].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 4b13f66114b8eed4caed1e0146ddc265, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[24].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[24].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[24].first.name
+    value: gums
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[24].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7322ce00f837334409152aeaf65f570d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[25].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[25].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[25].first.name
+    value: hair
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[25].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 0ff3028e11f636345b30c46d519ee711, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[26].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[26].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[26].first.name
+    value: hand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[26].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 67ee2062578e0b44aa4507de93818bd3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[27].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[27].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[27].first.name
+    value: head
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[27].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 008c145c1a699b646968f06b1b47889f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[28].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[28].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[28].first.name
+    value: head_color
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[28].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 008c145c1a699b646968f06b1b47889f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[29].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[29].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[29].first.name
+    value: head_color1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[29].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 008c145c1a699b646968f06b1b47889f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[30].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[30].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[30].first.name
+    value: head_color2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[30].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 008c145c1a699b646968f06b1b47889f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[31].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[31].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[31].first.name
+    value: jacket_leather
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[31].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 0c5ab7b7d140f4740ba92603a3388b40, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[32].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[32].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[32].first.name
+    value: jacket_stitches
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[32].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7939706879eae754bae6a9d38d552d2b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[33].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[33].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[33].first.name
+    value: lashesThick
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[33].second
+    value: 
+    objectReference: {fileID: 2100000, guid: e58cb79c1a2be674e993df86d0914c0b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[34].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[34].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[34].first.name
+    value: lashesThick1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[34].second
+    value: 
+    objectReference: {fileID: 2100000, guid: e58cb79c1a2be674e993df86d0914c0b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[35].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[35].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[35].first.name
+    value: lashesThin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[35].second
+    value: 
+    objectReference: {fileID: 2100000, guid: db032bd943ad5a54781f6df9ab6ae5f5, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[36].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[36].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[36].first.name
+    value: lashesThin1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[36].second
+    value: 
+    objectReference: {fileID: 2100000, guid: db032bd943ad5a54781f6df9ab6ae5f5, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[37].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[37].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[37].first.name
+    value: nickel
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[37].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 4e5252e0c8c54a341b981ed3a40dc36e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[38].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[38].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[38].first.name
+    value: pants
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[38].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 6068343722c482048a1ed3355f187c7a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[39].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[39].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[39].first.name
+    value: shin_plastic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[39].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7ce296fcf138350489b4d77e71dd1b6f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[40].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[40].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[40].first.name
+    value: shinpad_plastic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[40].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7ce296fcf138350489b4d77e71dd1b6f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[41].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[41].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[41].first.name
+    value: shoes_plastic
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[41].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 20cdf0bb539a86a49a4ad74810b1634b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[42].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[42].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[42].first.name
+    value: shoulderpad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[42].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 538c919b39746d241baf60492c80f4e8, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[43].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[43].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[43].first.name
+    value: tearduct
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[43].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7eb346ecd1019154886edb7d7da3aba7, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[44].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[44].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[44].first.name
+    value: tearduct1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[44].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7eb346ecd1019154886edb7d7da3aba7, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[45].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[45].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[45].first.name
+    value: tearduct2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[45].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7eb346ecd1019154886edb7d7da3aba7, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[46].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[46].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[46].first.name
+    value: tearduct4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[46].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7eb346ecd1019154886edb7d7da3aba7, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[47].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[47].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[47].first.name
+    value: teeth
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[47].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 1764e28c2a23484499a1e1b0b801f865, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[48].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[48].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[48].first.name
+    value: teeth1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[48].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 1764e28c2a23484499a1e1b0b801f865, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[49].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[49].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[49].first.name
+    value: tongue1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[49].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 7322ce00f837334409152aeaf65f570d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[50].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[50].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[50].first.name
+    value: transparent
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[50].second
+    value: 
+    objectReference: {fileID: 2100000, guid: e8c7070178fdc7d4d8bac44d1a8fc774, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[51].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[51].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[51].first.name
+    value: white_metal
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[51].second
+    value: 
+    objectReference: {fileID: 2100000, guid: c5c08618ba59aee4ea80f352152e2dcb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[52].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[52].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[52].first.name
+    value: white_metal_battery_1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[52].second
+    value: 
+    objectReference: {fileID: 2100000, guid: c5c08618ba59aee4ea80f352152e2dcb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[53].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[53].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[53].first.name
+    value: white_metal_battery_2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[53].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 47cdc20cc10b7f34a9284b375b086cf9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[54].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[54].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[54].first.name
+    value: white_metal_shin
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[54].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 07471eb5723fcef488ad7c4b6933ccc6, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[55].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[55].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[55].first.name
+    value: white_metal_shoes
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[55].second
+    value: 
+    objectReference: {fileID: 2100000, guid: 5780b8109138c6d448afb1868946f531, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[56].first.type
+    value: UnityEngine:Material
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[56].first.assembly
+    value: UnityEngine.CoreModule
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[56].first.name
+    value: zipper_fabric
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExternalObjects.Array.data[56].second
+    value: 
+    objectReference: {fileID: 2100000, guid: a381dd0bd2f7ceb40b3b5cfd8986976d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: m_MaterialImportMode
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MaterialName
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MaterialSearch
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MaterialLocation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_LegacyGenerateAnimations
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_BakeSimulation
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ResampleCurves
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_OptimizeGameObjects
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MotionNodeName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_RigImportErrors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_RigImportWarnings
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationImportErrors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationImportWarnings
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationRetargetingWarnings
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationDoRetargetingWarnings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ImportAnimatedCustomProperties
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ImportConstraints
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationCompression
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationRotationError
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationPositionError
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationScaleError
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationWrapMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExtraExposedTransformPaths.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ExtraUserProperties.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ClipAnimations.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_IsReadable
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_LODScreenPercentages.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_GlobalScale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_MeshCompression
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AddColliders
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_UseSRGBMaterialColor
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_SortHierarchyByName
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ImportVisibility
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ImportBlendShapes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ImportCameras
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ImportLights
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: swapUVChannels
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generateSecondaryUV
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_UseFileUnits
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: keepQuads
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: weldVertices
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bakeAxisConversion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PreserveHierarchy
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: skinWeightsMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxBonesPerVertex
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: minBoneWeight
+    value: 0.001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: meshOptimizationFlags
+    value: -1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: indexFormat
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryUVAngleDistortion
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryUVAreaDistortion
+    value: 15.000001
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryUVHardAngle
+    value: 88
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryUVMarginMethod
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryUVMinLightmapResolution
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryUVMinObjectScale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: secondaryUVPackMargin
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_UseFileScale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: normalSmoothAngle
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: normalImportMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tangentImportMode
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: normalCalculationMode
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: blendShapeNormalImportMode
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: normalSmoothingSource
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ReferencedClips.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_ImportAnimation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_Human.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_Skeleton.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_ArmTwist
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_ForeArmTwist
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_UpperLegTwist
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_LegTwist
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_ArmStretch
+    value: 0.05
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_LegStretch
+    value: 0.05
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_FeetSpacing
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_GlobalScale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_RootMotionBoneName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_HasTranslationDoF
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_HasExtraRoot
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanDescription.m_SkeletonHasParents
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_LastHumanDescriptionAvatarSource
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AutoGenerateAvatarMappingIfUnspecified
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AnimationType
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_HumanoidOversampling
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AvatarSetup
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AddHumanoidExtraRootOnlyWhenUsingAvatar
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AdditionalBone
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_UserData
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AssetBundleName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_AssetBundleVariant
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: e54c1e3721cecc048a0b5ad385ea319a
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arm_plastic
+    second: {fileID: 2100000, guid: 25c971bae28a07b4287a725b1a5e6c91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: armor_metal
+    second: {fileID: 2100000, guid: ee03da985d7bebc4d9db314b475130db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: armor_mode_mat1
+    second: {fileID: 2100000, guid: 2706bb43f3a36144ba0fa61d9ff64989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bag_belt
+    second: {fileID: 2100000, guid: 44bf5f1626d53544b9994613b64af5d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: battery_base
+    second: {fileID: 2100000, guid: c5c08618ba59aee4ea80f352152e2dcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: battery_plastic
+    second: {fileID: 2100000, guid: a1cf1288044845442833d4736c2e6197, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: belt_fabric
+    second: {fileID: 2100000, guid: 918ecda52cbd5e84ea1c9df6d72f5611, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_border
+    second: {fileID: 2100000, guid: 0c3931fa583d28643a0d101d0f532bb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black_plastic
+    second: {fileID: 2100000, guid: 513321c873c6a4646802132a4832708b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: border
+    second: {fileID: 2100000, guid: 65b7df30fc7a12748b49be7638a8cf1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: browThick
+    second: {fileID: 2100000, guid: f84a96bd462d250419865cfdefbd5bf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: browThick1
+    second: {fileID: 2100000, guid: f84a96bd462d250419865cfdefbd5bf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: browThin
+    second: {fileID: 2100000, guid: fc7ead67a79217e469ff5149f6049851, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: browThin1
+    second: {fileID: 2100000, guid: fc7ead67a79217e469ff5149f6049851, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: buckles_plastic
+    second: {fileID: 2100000, guid: 585b276ba4b4ca645831f90779c0e8d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cannon_inside_rubber_mat
+    second: {fileID: 2100000, guid: fff324fe6e29b3941ae625517c82de6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cannon_mode_inside_mat
+    second: {fileID: 2100000, guid: c9dbc2b656045ca408bfd24c0857be73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emit
+    second: {fileID: 2100000, guid: 36603da7cb8723340bad7b966fb76472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: energy_ring_mat
+    second: {fileID: 2100000, guid: 974a80c3bbb95a34390f7dfde057cfdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes
+    second: {fileID: 2100000, guid: 1f6dbd230e2b43441a6cb6a76db73da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes1
+    second: {fileID: 2100000, guid: 1f6dbd230e2b43441a6cb6a76db73da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes3
+    second: {fileID: 2100000, guid: 1f6dbd230e2b43441a6cb6a76db73da1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fabric_border
+    second: {fileID: 2100000, guid: 65742d2dc873b224b92045452eaf3daf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gloves_boarder
+    second: {fileID: 2100000, guid: b44a7dcfb0ae0c141b1b7c80aabc64da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gloves_fabric
+    second: {fileID: 2100000, guid: eede32eb6efd1d64395ccc616eb2525c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gloves_leather
+    second: {fileID: 2100000, guid: 4f8a8836ba2ae9442802b2808709f588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gloves_stitches
+    second: {fileID: 2100000, guid: 8df30c731b94b064f88a78849ee975e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold
+    second: {fileID: 2100000, guid: 45e4fd2bb2f249e4e8781c1a6245a5cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gum
+    second: {fileID: 2100000, guid: 4b13f66114b8eed4caed1e0146ddc265, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gums
+    second: {fileID: 2100000, guid: 7322ce00f837334409152aeaf65f570d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: 0ff3028e11f636345b30c46d519ee711, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hand
+    second: {fileID: 2100000, guid: 67ee2062578e0b44aa4507de93818bd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: head
+    second: {fileID: 2100000, guid: 008c145c1a699b646968f06b1b47889f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: head_color
+    second: {fileID: 2100000, guid: 008c145c1a699b646968f06b1b47889f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: head_color1
+    second: {fileID: 2100000, guid: 008c145c1a699b646968f06b1b47889f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: head_color2
+    second: {fileID: 2100000, guid: 008c145c1a699b646968f06b1b47889f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jacket_leather
+    second: {fileID: 2100000, guid: 0c5ab7b7d140f4740ba92603a3388b40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jacket_stitches
+    second: {fileID: 2100000, guid: 7939706879eae754bae6a9d38d552d2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lashesThick
+    second: {fileID: 2100000, guid: e58cb79c1a2be674e993df86d0914c0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lashesThick1
+    second: {fileID: 2100000, guid: e58cb79c1a2be674e993df86d0914c0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lashesThin
+    second: {fileID: 2100000, guid: db032bd943ad5a54781f6df9ab6ae5f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lashesThin1
+    second: {fileID: 2100000, guid: db032bd943ad5a54781f6df9ab6ae5f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nickel
+    second: {fileID: 2100000, guid: 45e4fd2bb2f249e4e8781c1a6245a5cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pants
+    second: {fileID: 2100000, guid: 6068343722c482048a1ed3355f187c7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shin_plastic
+    second: {fileID: 2100000, guid: 7ce296fcf138350489b4d77e71dd1b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shinpad_plastic
+    second: {fileID: 2100000, guid: 7ce296fcf138350489b4d77e71dd1b6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoes_plastic
+    second: {fileID: 2100000, guid: 20cdf0bb539a86a49a4ad74810b1634b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoulderpad
+    second: {fileID: 2100000, guid: 538c919b39746d241baf60492c80f4e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tearduct
+    second: {fileID: 2100000, guid: 7eb346ecd1019154886edb7d7da3aba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tearduct1
+    second: {fileID: 2100000, guid: 7eb346ecd1019154886edb7d7da3aba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tearduct2
+    second: {fileID: 2100000, guid: 7eb346ecd1019154886edb7d7da3aba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tearduct4
+    second: {fileID: 2100000, guid: 7eb346ecd1019154886edb7d7da3aba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teeth
+    second: {fileID: 2100000, guid: 1764e28c2a23484499a1e1b0b801f865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teeth1
+    second: {fileID: 2100000, guid: 1764e28c2a23484499a1e1b0b801f865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tongue1
+    second: {fileID: 2100000, guid: 7322ce00f837334409152aeaf65f570d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: transparent
+    second: {fileID: 2100000, guid: e8c7070178fdc7d4d8bac44d1a8fc774, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_metal
+    second: {fileID: 2100000, guid: c5c08618ba59aee4ea80f352152e2dcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_metal_battery_1
+    second: {fileID: 2100000, guid: c5c08618ba59aee4ea80f352152e2dcb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_metal_battery_2
+    second: {fileID: 2100000, guid: 47cdc20cc10b7f34a9284b375b086cf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_metal_shin
+    second: {fileID: 2100000, guid: 07471eb5723fcef488ad7c4b6933ccc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white_metal_shoes
+    second: {fileID: 2100000, guid: 5780b8109138c6d448afb1868946f531, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zipper_fabric
+    second: {fileID: 2100000, guid: a381dd0bd2f7ceb40b3b5cfd8986976d, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 15
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 90
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
