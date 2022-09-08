@@ -32,7 +32,7 @@ HairFX Core package only is also available on github [here](https://github.com/U
   + Anisotropic lighting shader
   + Multi Detail or Thread map shader
 
-## Important note
+## Note
 - The TressFX Exporter plugin for Maya is in Libray/PackageCache/cn.unity.hairfx.core/**Maya_TressFX_Exporter~** folder or download [here](https://github.com/Unity-China/cn.unity.hairfx.core/tree/main/Maya_TressFX_Exporter~)
 - This hair system is not the same hair system that show in ENEMIES demo video, which is separate hair system that created by Unity DemoTeam, you can find it on github [here](https://github.com/Unity-Technologies/com.unity.demoteam.hair)
 
