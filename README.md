@@ -37,7 +37,7 @@ HairFX Core package only is also available on github [here](https://github.com/U
    - Install [Git LFS](https://git-lfs.github.com/) if you clone via Git, (not required for GitHub Desktop)
    - After cloning is finished that Inside the repository, run `git lfs install`
  
-   Option 2: Direct Download the [Download Zip](https://github.com/UnityTechnologies/URP-Defender-Character-Demo/archive/refs/heads/main.zip) file directly
+   Option 2: Direct Download the [Zip file](https://github.com/UnityTechnologies/URP-Defender-Character-Demo/archive/refs/heads/main.zip)
   
 2. Launch the project with Unity Editor
 3. Open the sample scene: **Assets/(URP) Defender - Character Demo/Scenes/Char_Test.unity**
