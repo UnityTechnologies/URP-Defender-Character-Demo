@@ -8,9 +8,13 @@
 
 **The technology stack is under Unity’s standard Asset Store EULA.**
 
+## Animation Demo 
+[YouTube](https://www.youtube.com/watch?v=YBtpv7ZdbB4)<br>
+[Bilibili](https://www.bilibili.com/video/BV1g8411p78X/?spm_id_from=333.999.0.0&vd_source=94bf18aef4c51636d11191e668a9854c)
+
 ## Description
 
-This package includes a new strand base hair system that integrated from the AMD’s TressFX hair system. This hair system supports both Universal Render Pipeline (URP) and High Definition Render Pipeline (HDRP). Our goal is that this real-time strand hair simulation and rendering system support for cross platform from desktop computer, consoles to mobile devices.
+This package includes a new strand base hair system that integrated from the [AMD’s TressFX](https://gpuopen.com/announcing-unity-china-hairfx/) hair system. This hair system supports both Universal Render Pipeline (URP) and High Definition Render Pipeline (HDRP). Our goal is that this real-time strand hair simulation and rendering system support for cross platform from desktop computer, consoles to mobile devices.
 
 While this hair system has a lot more work remains to be done, we’re sharing what we have at the moment. You’re free to use or modify it to fit your productions and build if needed.
 
@@ -59,6 +63,4 @@ Currently not supports Huawei mobile phones due to some device does not support 
 Also this hair system tested mainly on iPhone, it may not compatible all Android mobile device
 
 ## Related links
-[AMD HairFX Announcement](https://gpuopen.com/announcing-unity-china-hairfx/)
-
 [AMD TressFX github](https://github.com/GPUOpen-Effects/TressFX)
