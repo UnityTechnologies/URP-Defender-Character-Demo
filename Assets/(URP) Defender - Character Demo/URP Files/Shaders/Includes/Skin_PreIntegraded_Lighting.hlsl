@@ -228,7 +228,7 @@ half4 UniversalFragmentSkin(InputData inputData, SurfaceData surfaceData, SkinSu
     half4 shadowMask = CalculateShadowMask(inputData);
     AmbientOcclusionFactor aoFactor = CreateAmbientOcclusionFactor(inputData, surfaceData);
     
-    #if UNITY_VERSION > 202210
+    #if UNITY_VERSION > 202220
         uint meshRenderingLayers = GetMeshRenderingLayer();
     #else
         uint meshRenderingLayers = GetMeshRenderingLightLayer();
