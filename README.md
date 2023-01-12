@@ -46,7 +46,7 @@ HairFX Core package only is also available on github [here](https://github.com/U
 2. Launch the project with Unity Editor
 3. Open the sample scene: **Assets/(URP) Defender - Character Demo/Scenes/Char_Test.unity**
 
-### Tutorial [(Chinese)](https://learn.u3d.cn/tutorial/Unity-HairFX-Tutorial)
+### Tutorial [(Chinese)](https://learn.u3d.cn/tutorial/Unity-HairFX-Tutorial) [(English)](https://jyb125.tumblr.com/post/703852667664023552/tressfx-hair-plugin-character-package-and)
 
 ## Note
 - The TressFX Exporter plugin for Maya is in Libray/PackageCache/cn.unity.hairfx.core/**Maya_TressFX_Exporter~** folder or download [here](https://github.com/Unity-China/cn.unity.hairfx.core/tree/main/Maya_TressFX_Exporter~)
