@@ -51,7 +51,7 @@ HairFX Core package only is also available on github [here](https://github.com/U
 ## Note
 - The TressFX Exporter plugin for Maya is in Libray/PackageCache/cn.unity.hairfx.core/**Maya_TressFX_Exporter~** folder or download [here](https://github.com/Unity-China/cn.unity.hairfx.core/tree/main/Maya_TressFX_Exporter~)
 - This hair system is not the same hair system that show in ENEMIES demo video, which is separate hair system that created by Unity DemoTeam, you can find it on github [here](https://github.com/Unity-Technologies/com.unity.demoteam.hair)
-
+- Looking for High Definition Render Pipeline (HDRP)? --> [HDRP project](https://github.com/UnityTechnologies/HDRP-Defender-Character-Demo)
 
 ## Tips
 If you build this hair system to mobile platform, please try to limit the total hair strand count less then 10 thousand in the viewing screen to maintain good frame rate. The performance of FPS is also depend on your device hardware.
