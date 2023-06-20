@@ -4849,7 +4849,7 @@
     "m_Group": {
         "m_Id": "7ead5e1ee257429a80d9d42569590d90"
     },
-    "m_Name": "Keywrod (Custom Function)",
+    "m_Name": "Keyword (Custom Function)",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -4888,7 +4888,7 @@
         "m_SerializableColors": []
     },
     "m_SourceType": 1,
-    "m_FunctionName": "Keywrod",
+    "m_FunctionName": "Keyword",
     "m_FunctionSource": "",
     "m_FunctionBody": "Out = 0;"
 }
