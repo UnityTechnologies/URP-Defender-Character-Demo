@@ -26,7 +26,8 @@ HairFX Core package only is also available on github [here](https://github.com/U
 
 - Unity 2021.2.13f1 +
 - Universal Render Pipeline 12.1.4 +
-
+- [Git](https://git-scm.com/) for Package installation in Unity Editor
+  
 ## Here’s what’s in the box
 - Defender character with Multi-Hair styles
 - Custom ShaderGraph shader for URP:
@@ -37,14 +38,13 @@ HairFX Core package only is also available on github [here](https://github.com/U
   + Multi Detail or Thread map shader
 
 ## Instruction
-1. Option 1: Clone via [Git](https://git-scm.com/) or [GitHub Desktop](https://desktop.github.com/)
-   - Install [Git LFS](https://git-lfs.github.com/) if you clone via Git, (not required for GitHub Desktop)
-   - After cloning is finished that Inside the repository, run `git lfs install`
+1. Option 1: Clone via [Git](https://git-scm.com/) or [GitHub Desktop](https://desktop.github.com/) (Recommended)
+   - After Clone the repository that it needs to Enable 'Git LFS'
  
    Option 2: Direct Download the [Zip file](https://github.com/UnityTechnologies/URP-Defender-Character-Demo/archive/refs/heads/main.zip)
   
-2. Launch the project with Unity Editor
-3. Open the sample scene: **Assets/(URP) Defender - Character Demo/Scenes/Char_Test.unity**
+3. Launch the project with Unity Editor
+4. Open the sample scene: **Assets/(URP) Defender - Character Demo/Scenes/Char_Test.unity**
 
 ### Tutorial [(Chinese)](https://learn.u3d.cn/tutorial/Unity-HairFX-Tutorial) [(English)](https://jyb125.tumblr.com/post/703852667664023552/tressfx-hair-plugin-character-package-and)
 
