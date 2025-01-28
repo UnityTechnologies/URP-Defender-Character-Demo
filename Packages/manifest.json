@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "cn.unity.hairfx.core": "https://github.com/Unity-China/cn.unity.hairfx.core.git",
+    "cn.unity.hairfx.urp": "https://github.com/Unity-China/cn.unity.hairfx.urp.git",
     "com.unity.ide.rider": "3.0.34",
     "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.ide.vscode": "1.2.5",

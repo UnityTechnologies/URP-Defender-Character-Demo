@@ -8,13 +8,14 @@
       "hash": "51646f2a019d0ea2e07c19ea41bde5c629042159"
     },
     "cn.unity.hairfx.urp": {
-      "version": "file:cn.unity.hairfx.urp",
+      "version": "https://github.com/Unity-China/cn.unity.hairfx.urp.git",
       "depth": 0,
-      "source": "embedded",
+      "source": "git",
       "dependencies": {
         "cn.unity.hairfx.core": "https://github.com/Unity-China/cn.unity.hairfx.core.git",
         "com.unity.render-pipelines.universal": "12.1.4"
-      }
+      },
+      "hash": "36deb10f548d035f43b6f8007a483b06dd3b02bc"
     },
     "com.unity.burst": {
       "version": "1.8.4",
