@@ -24,8 +24,8 @@ HairFX Core package only is also available on github [here](https://github.com/U
 
 ## Requirements
 
-- Unity 2021.2.13f1 +
-- Universal Render Pipeline 12.1.4 +
+- Unity 2021.2.13f1 + (Recommended 2022.3.2f1 +)
+- Universal Render Pipeline 12.1.4 + (Recommended 14.0.8 +)
 - [Git](https://git-scm.com/) for Package installation in Unity Editor
   
 ## Here’s what’s in the box

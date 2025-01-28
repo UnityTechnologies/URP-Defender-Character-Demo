@@ -146,7 +146,7 @@ half3 ColorBleedAO(half occlusion, half3 colorBleed)
 // URP combined Specular Occlusion and Ambient Occlusion that multiply them at the end of code in built-in GlobalIllumination function,
 // However we want to add the half3 ColorBleedAO on indirect diffuse (ambient lighting) only
 half3 SkinGlobalIllumination(BRDFData brdfData, half3 occulsionTint, half subsurfaceMask,
-                            half3 bakedGI, half occlusion, float3 positionWS, half3 normalWS, half3 viewDirectionWS )
+                            half3 bakedGI, half occlusion, float3 positionWS, half3 normalWS, half3 viewDirectionWS, float2 normalizedScreenSpaceUV )
 {
     half3 reflectVector = reflect(-viewDirectionWS, normalWS);
     half NoV = ClampNdotV(dot(normalWS, viewDirectionWS));
@@ -160,7 +160,7 @@ half3 SkinGlobalIllumination(BRDFData brdfData, half3 occulsionTint, half subsur
 
     // Calculate occlusion here
     half3 indirectDiffuse = bakedGI * colorBleedAO;
-    half3 indirectSpecular = GlossyEnvironmentReflection(reflectVector, positionWS, brdfData.perceptualRoughness, specOcc);
+    half3 indirectSpecular = GlossyEnvironmentReflection(reflectVector, positionWS, brdfData.perceptualRoughness, specOcc, normalizedScreenSpaceUV);
 
     // indirectDiffuse
     return EnvironmentBRDF(brdfData, indirectDiffuse, indirectSpecular, fresnelTerm);
@@ -243,7 +243,7 @@ half4 UniversalFragmentSkin(InputData inputData, SurfaceData surfaceData, SkinSu
 
     lightingData.giColor = SkinGlobalIllumination(  brdfData, skinSurface.scatteringColor, skinSurface.subsurfaceMask,
                                             inputData.bakedGI, aoFactor.indirectAmbientOcclusion,inputData.positionWS,
-                                            inputData.normalWS, inputData.viewDirectionWS);
+                                            inputData.normalWS, inputData.viewDirectionWS, inputData.normalizedScreenSpaceUV);
 #ifdef _LIGHT_LAYERS
     if (IsMatchingLightLayer(mainLight.layerMask, meshRenderingLayers))
 #endif
@@ -255,10 +255,11 @@ half4 UniversalFragmentSkin(InputData inputData, SurfaceData surfaceData, SkinSu
    
 #if defined(_ADDITIONAL_LIGHTS)
     uint pixelLightCount = GetAdditionalLightsCount();
-    // We support directly Forward Plus for 2022.2, and skip support for the Clustered (experimental)
+    // We support directly Forward Plus for 2022.3, and skip support for the Clustered (experimental)
     #if USE_FORWARD_PLUS
-    for (uint lightIndex = 0; lightIndex < min(_AdditionalLightsDirectionalCount, MAX_VISIBLE_LIGHTS); lightIndex++)
+    for (uint lightIndex = 0; lightIndex < min(URP_FP_DIRECTIONAL_LIGHTS_COUNT, MAX_VISIBLE_LIGHTS); lightIndex++)
     {
+        FORWARD_PLUS_SUBTRACTIVE_LIGHT_CHECK
         Light light = GetAdditionalLight(lightIndex, inputData, shadowMask, aoFactor);
 
 #ifdef _LIGHT_LAYERS

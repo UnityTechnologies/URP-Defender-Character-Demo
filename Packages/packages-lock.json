@@ -1,7 +1,23 @@
 {
   "dependencies": {
+    "cn.unity.hairfx.core": {
+      "version": "https://github.com/Unity-China/cn.unity.hairfx.core.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "51646f2a019d0ea2e07c19ea41bde5c629042159"
+    },
+    "cn.unity.hairfx.urp": {
+      "version": "file:cn.unity.hairfx.urp",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "cn.unity.hairfx.core": "https://github.com/Unity-China/cn.unity.hairfx.core.git",
+        "com.unity.render-pipelines.universal": "12.1.4"
+      }
+    },
     "com.unity.burst": {
-      "version": "1.6.4",
+      "version": "1.8.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -16,15 +32,8 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.hairfx": {
-      "version": "https://github.com/Unity-China/com.unity.hairfx.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "86825e8f06362ce171a1de758c6375d65b68fb9b"
-    },
     "com.unity.ide.rider": {
-      "version": "3.0.15",
+      "version": "3.0.34",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -33,7 +42,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.16",
+      "version": "2.0.22",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -49,51 +58,52 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "12.1.4",
+      "version": "14.0.8",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
     "com.unity.render-pipelines.universal": {
-      "version": "12.1.4",
+      "version": "14.0.8",
       "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
-        "com.unity.burst": "1.5.0",
-        "com.unity.render-pipelines.core": "12.1.4",
-        "com.unity.shadergraph": "12.1.4"
+        "com.unity.burst": "1.8.4",
+        "com.unity.render-pipelines.core": "14.0.8",
+        "com.unity.shadergraph": "14.0.8"
       }
     },
     "com.unity.searcher": {
-      "version": "4.9.1",
+      "version": "4.9.2",
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "12.1.4",
+      "version": "14.0.8",
       "depth": 1,
       "source": "builtin",
       "dependencies": {
-        "com.unity.render-pipelines.core": "12.1.4",
-        "com.unity.searcher": "4.9.1"
+        "com.unity.render-pipelines.core": "14.0.8",
+        "com.unity.searcher": "4.9.2"
       }
     },
     "com.unity.test-framework": {
-      "version": "1.1.31",
+      "version": "1.1.33",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -111,16 +121,6 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
-    },
-    "com.unity.visualscripting": {
-      "version": "1.7.8",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
@@ -253,17 +253,6 @@
     "com.unity.modules.uielements": {
       "version": "1.0.0",
       "depth": 0,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.modules.ui": "1.0.0",
-        "com.unity.modules.imgui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.modules.uielementsnative": "1.0.0"
-      }
-    },
-    "com.unity.modules.uielementsnative": {
-      "version": "1.0.0",
-      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",

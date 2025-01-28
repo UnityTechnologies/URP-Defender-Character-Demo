@@ -8,9 +8,6 @@
             "m_Id": "302cf9e43b3449a8a8583808c4189a69"
         },
         {
-            "m_Id": "ec38fdca3e7c43b58d7c9dfc4513a615"
-        },
-        {
             "m_Id": "56df327cf6c74f559b69a67df682387a"
         },
         {
@@ -74,9 +71,6 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "ec38fdca3e7c43b58d7c9dfc4513a615"
-        },
-        {
             "m_Id": "fbb5ddb3d3cb4bc587e36409c3ed38cb"
         },
         {
@@ -109,6 +103,7 @@
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
     "m_KeywordType": 1,
     "m_KeywordDefinition": 1,
     "m_KeywordScope": 1,
@@ -144,6 +139,7 @@
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
     "m_KeywordType": 0,
     "m_KeywordDefinition": 1,
     "m_KeywordScope": 1,
@@ -168,6 +164,7 @@
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
     "m_KeywordType": 0,
     "m_KeywordDefinition": 1,
     "m_KeywordScope": 1,
@@ -192,6 +189,7 @@
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
     "m_KeywordType": 1,
     "m_KeywordDefinition": 1,
     "m_KeywordScope": 1,
@@ -243,6 +241,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -268,30 +267,6 @@
 {
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
-    "m_ObjectId": "ec38fdca3e7c43b58d7c9dfc4513a615",
-    "m_Guid": {
-        "m_GuidSerialized": "193b52cf-b483-4d61-87a9-456cf45c5796"
-    },
-    "m_Name": "SCREEN_SPACE_OCCLUSION",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "SCREEN_SPACE_OCCLUSION",
-    "m_DefaultReferenceName": "_SCREEN_SPACE_OCCLUSION",
-    "m_OverrideReferenceName": "_SCREEN_SPACE_OCCLUSION",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_KeywordType": 0,
-    "m_KeywordDefinition": 1,
-    "m_KeywordScope": 1,
-    "m_KeywordStages": 2,
-    "m_Entries": [],
-    "m_Value": 0,
-    "m_IsEditable": true
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
     "m_ObjectId": "fbb5ddb3d3cb4bc587e36409c3ed38cb",
     "m_Guid": {
         "m_GuidSerialized": "dc72813a-df73-4659-99cd-5020cb5ee1c9"
@@ -304,6 +279,7 @@
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
     "m_KeywordType": 0,
     "m_KeywordDefinition": 1,
     "m_KeywordScope": 1,

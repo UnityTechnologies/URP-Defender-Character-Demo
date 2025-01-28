@@ -163,17 +163,17 @@ half3 DirectSpecular(BRDFData brdfData, ExtraSurfaceData extraSurfaceData, half3
 //ENV
 half3 GlobalIlluminationWithAnisotropic(BRDFData brdfData, BRDFData brdfDataClearCoat, ExtraSurfaceData extraSurfaceData, half clearCoatMask,
     half3 bakedGI, half occlusion, float3 positionWS,
-    half3 normalWS, half3 viewDirectionWS)
+    half3 normalWS, half3 viewDirectionWS, float2 normalizedScreenSpaceUV)
 {
     //change normal and roughness by anisotropic
     GetGGXAnisotropicModifiedNormalAndRoughness(extraSurfaceData.bitangentWS, extraSurfaceData.tangentWS,
                                                 normalWS, viewDirectionWS, extraSurfaceData.anisotropy, brdfData.perceptualRoughness, normalWS, brdfData.perceptualRoughness);
     half3 reflectVector = reflect(-viewDirectionWS, normalWS);
-    half NoV = max(dot(normalWS, viewDirectionWS),0.0001); //ClampNdotV
+    half NoV = saturate(dot(normalWS, viewDirectionWS));
     half fresnelTerm = Pow4(1.0 - NoV);
 
     half3 indirectDiffuse = bakedGI;
-    half3 indirectSpecular = GlossyEnvironmentReflection(reflectVector, positionWS, brdfData.perceptualRoughness, 1.0h);
+    half3 indirectSpecular = GlossyEnvironmentReflection(reflectVector, positionWS, brdfData.perceptualRoughness, 1.0h, normalizedScreenSpaceUV);
 
     half3 color = EnvironmentBRDF(brdfData, indirectDiffuse, indirectSpecular, fresnelTerm);
 
@@ -183,7 +183,7 @@ half3 GlobalIlluminationWithAnisotropic(BRDFData brdfData, BRDFData brdfDataClea
     }
 
     #if defined(_CLEARCOAT) || defined(_CLEARCOATMAP)
-        half3 coatIndirectSpecular = GlossyEnvironmentReflection(reflectVector, positionWS, brdfDataClearCoat.perceptualRoughness, 1.0h);
+        half3 coatIndirectSpecular = GlossyEnvironmentReflection(reflectVector, positionWS, brdfDataClearCoat.perceptualRoughness, 1.0h, normalizedScreenSpaceUV);
         // TODO: "grazing term" causes problems on full roughness
         half3 coatColor = EnvironmentBRDFClearCoat(brdfDataClearCoat, clearCoatMask, coatIndirectSpecular, fresnelTerm);
 
@@ -269,7 +269,7 @@ half4 LightingPBR(InputData inputData, SurfaceData surfaceData, ExtraSurfaceData
     LightingData lightingData = CreateLightingData(inputData, surfaceData);
     lightingData.giColor = GlobalIlluminationWithAnisotropic(brdfData, brdfDataClearCoat,extraSurfaceData, surfaceData.clearCoatMask,
                                                       inputData.bakedGI, aoFactor.indirectAmbientOcclusion, inputData.positionWS,
-                                                      inputData.normalWS, inputData.viewDirectionWS);
+                                                      inputData.normalWS, inputData.viewDirectionWS, inputData.normalizedScreenSpaceUV);
 
 #ifdef _LIGHT_LAYERS
     if (IsMatchingLightLayer(mainLight.layerMask, meshRenderingLayers))
@@ -282,9 +282,9 @@ half4 LightingPBR(InputData inputData, SurfaceData surfaceData, ExtraSurfaceData
 
 #if defined(_ADDITIONAL_LIGHTS)
     uint pixelLightCount = GetAdditionalLightsCount();
-    // We support directly Forward Plus for 2022.2, and skip support for the Clustered (experimental)
+    // We support directly Forward Plus for 2022.3, and skip support for the Clustered (experimental)
     #if USE_FORWARD_PLUS
-    for (uint lightIndex = 0; lightIndex < min(_AdditionalLightsDirectionalCount, MAX_VISIBLE_LIGHTS); lightIndex++)
+    for (uint lightIndex = 0; lightIndex < min(URP_FP_DIRECTIONAL_LIGHTS_COUNT, MAX_VISIBLE_LIGHTS); lightIndex++)
     {
         Light light = GetAdditionalLight(lightIndex, inputData, shadowMask, aoFactor);
 
@@ -297,8 +297,8 @@ half4 LightingPBR(InputData inputData, SurfaceData surfaceData, ExtraSurfaceData
                                                                           surfaceData.clearCoatMask, specularHighlightsOff);
         }
     }
-
   #endif
+    
     LIGHT_LOOP_BEGIN(pixelLightCount)
         Light light = GetAdditionalLight(lightIndex, inputData, shadowMask, aoFactor);
 
