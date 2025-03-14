@@ -6,9 +6,6 @@
     "m_Keywords": [
         {
             "m_Id": "d065b7dea389423dbd19a10db61dd467"
-        },
-        {
-            "m_Id": "bd2f94df6c71484498d4f1f60cd0a830"
         }
     ],
     "m_Dropdowns": [],
@@ -67,35 +64,8 @@
     "m_ChildObjectList": [
         {
             "m_Id": "d065b7dea389423dbd19a10db61dd467"
-        },
-        {
-            "m_Id": "bd2f94df6c71484498d4f1f60cd0a830"
         }
     ]
-}
-
-{
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
-    "m_ObjectId": "bd2f94df6c71484498d4f1f60cd0a830",
-    "m_Guid": {
-        "m_GuidSerialized": "dd7f4b48-e28c-4551-b832-f93efaaa1f89"
-    },
-    "m_Name": "LOD_FADE_CROSSFADE",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "LOD_FADE_CROSSFADE",
-    "m_DefaultReferenceName": "_LOD_FADE_CROSSFADE",
-    "m_OverrideReferenceName": "LOD_FADE_CROSSFADE",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_KeywordType": 0,
-    "m_KeywordDefinition": 1,
-    "m_KeywordScope": 1,
-    "m_KeywordStages": 2,
-    "m_Entries": [],
-    "m_Value": 0,
-    "m_IsEditable": true
 }
 
 {
@@ -128,6 +98,7 @@
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
     "m_KeywordType": 0,
     "m_KeywordDefinition": 1,
     "m_KeywordScope": 1,
@@ -163,6 +134,7 @@
     "synonyms": [],
     "m_Precision": 0,
     "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
