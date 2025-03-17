@@ -60,7 +60,7 @@ InputData InitializeInputData(float3  positionWS, real3 normalWS,real3 normalTS,
     positionCS = ComputeScreenPos(positionCS);
     positionCS.xy = (positionCS.xy/positionCS.w) * _ScreenParams.xy;
     inputData.normalizedScreenSpaceUV = GetNormalizedScreenSpaceUV(positionCS);
-    inputData.shadowMask = SAMPLE_SHADOWMASK(lightmapUV);
+    inputData.shadowMask = 1;//SAMPLE_SHADOWMASK(lightmapUV);
     
     return inputData;
 }
@@ -267,7 +267,7 @@ half4 LightingPBR(InputData inputData, SurfaceData surfaceData, ExtraSurfaceData
     MixRealtimeAndBakedGI(mainLight, inputData.normalWS, inputData.bakedGI);
 
     LightingData lightingData = CreateLightingData(inputData, surfaceData);
-    lightingData.giColor = GlobalIlluminationWithAnisotropic(brdfData, brdfDataClearCoat,extraSurfaceData, surfaceData.clearCoatMask,
+    lightingData.giColor = GlobalIlluminationWithAnisotropic(brdfData, brdfDataClearCoat, extraSurfaceData, surfaceData.clearCoatMask,
                                                       inputData.bakedGI, aoFactor.indirectAmbientOcclusion, inputData.positionWS,
                                                       inputData.normalWS, inputData.viewDirectionWS, inputData.normalizedScreenSpaceUV);
 
@@ -282,10 +282,12 @@ half4 LightingPBR(InputData inputData, SurfaceData surfaceData, ExtraSurfaceData
 
 #if defined(_ADDITIONAL_LIGHTS)
     uint pixelLightCount = GetAdditionalLightsCount();
-    // We support directly Forward Plus for 2022.3, and skip support for the Clustered (experimental)
+    
     #if USE_FORWARD_PLUS
     for (uint lightIndex = 0; lightIndex < min(URP_FP_DIRECTIONAL_LIGHTS_COUNT, MAX_VISIBLE_LIGHTS); lightIndex++)
     {
+        FORWARD_PLUS_SUBTRACTIVE_LIGHT_CHECK
+        
         Light light = GetAdditionalLight(lightIndex, inputData, shadowMask, aoFactor);
 
 #ifdef _LIGHT_LAYERS
@@ -313,9 +315,9 @@ half4 LightingPBR(InputData inputData, SurfaceData surfaceData, ExtraSurfaceData
     LIGHT_LOOP_END
 #endif
 
-    #if defined(_ADDITIONAL_LIGHTS_VERTEX)
-    lightingData.vertexLightingColor += inputData.vertexLighting * brdfData.diffuse;
-    #endif
+    // #if defined(_ADDITIONAL_LIGHTS_VERTEX)
+    // lightingData.vertexLightingColor += inputData.vertexLighting * brdfData.diffuse;
+    // #endif
 
     return CalculateFinalColor(lightingData, surfaceData.alpha);
 }

@@ -255,7 +255,7 @@ half4 UniversalFragmentSkin(InputData inputData, SurfaceData surfaceData, SkinSu
    
 #if defined(_ADDITIONAL_LIGHTS)
     uint pixelLightCount = GetAdditionalLightsCount();
-    // We support directly Forward Plus for 2022.3, and skip support for the Clustered (experimental)
+    
     #if USE_FORWARD_PLUS
     for (uint lightIndex = 0; lightIndex < min(URP_FP_DIRECTIONAL_LIGHTS_COUNT, MAX_VISIBLE_LIGHTS); lightIndex++)
     {
@@ -332,7 +332,7 @@ InputData InitializeInputData(float3  positionWS, real3 normalWS,real3 normalTS,
     positionCS = ComputeScreenPos(positionCS);
     positionCS.xy = (positionCS.xy/positionCS.w) * _ScreenParams.xy;
     inputData.normalizedScreenSpaceUV = GetNormalizedScreenSpaceUV(positionCS);
-    inputData.shadowMask = SAMPLE_SHADOWMASK(staticLightmapUV);
+    inputData.shadowMask = 1;//AMPLE_SHADOWMASK(staticLightmapUV);
 
     return inputData;
 }
