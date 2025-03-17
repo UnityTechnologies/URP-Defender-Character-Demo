@@ -1,6 +1,6 @@
 // PBR Lighting with Anisotropy for ShaderGraph Unlit
 
-// If directly enabled _NORMALMAP will ocurr error with DepthNormalOnlyPass
+// If directly enabled _NORMALMAP will occur error with DepthNormalOnlyPass
 // #if (SHADERPASS != SHADERPASS_DEPTHNORMALSONLY)
 #if (defined (_USE_NORMAL_MAP) && (SHADERPASS != SHADERPASS_DEPTHNORMALSONLY))
 #define _NORMALMAP 1
@@ -58,8 +58,8 @@ InputData InitializeInputData(float3  positionWS, real3 normalWS,real3 normalTS,
     ///Position Clip Space result is different than the "positionCS : SV_POSITION;", need to convert to correct value
     float4 positionCS = TransformWorldToHClip(inputData.positionWS);
     positionCS = ComputeScreenPos(positionCS);
-    positionCS.xy = (positionCS.xy/positionCS.w) * _ScreenParams.xy;
-    inputData.normalizedScreenSpaceUV = GetNormalizedScreenSpaceUV(positionCS);
+    positionCS.xy = (positionCS.xy/positionCS.w) * GetScaledScreenParams().xy;
+    inputData.normalizedScreenSpaceUV = GetNormalizedScreenSpaceUV(positionCS.xy);
     inputData.shadowMask = 1;//SAMPLE_SHADOWMASK(lightmapUV);
     
     return inputData;
